@@ -39,13 +39,15 @@ ion-menu.md ion-list#labels-list ion-list-header {
 }
 
 ion-menu.md ion-item {
+  margin: 7px;
   --padding-start: 10px;
   --padding-end: 10px;
   border-radius: 4px;
 }
 
 ion-menu.md ion-item.selected {
-  --background: rgba(var(--ion-color-primary-rgb), 0.14);
+  --background: rgba(var(--ion-color-primary-rgb), 0.5);
+  border: 2px solid rgba(var(--ion-color-primary-rgb), 1);
 }
 
 ion-menu.md ion-item.selected ion-icon {

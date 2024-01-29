@@ -20,9 +20,11 @@ Yksinkertaisuus: Ionic on rakennettu yksinkertaisuus mielessä, jotta sovelluste
 Kehysyhteensopivuus: Ionicia voi käyttää useimmissa frontend-kehyksissä menestyksekkäästi, mukaan lukien React ja Vue, vaikka jotkut kehykset tarvitsevat täyden Web-komponenttituen saamiseksi shimmin.
 Ionic CLI: Ionic CLI on työkalu, joka pikaisesti tekee Ionic-sovelluksien pohjien luomisen ja tarjoaa lukuisia hyödyllisiä komentoja Ionic-kehittäjille. Se sisältää kehityspalvelimen, rakennus- ja vianmääritystyökalut ja paljon muuta. Appflow: Appflow auttaa rakentamaan, julkaisemaan ja hallinnoimaan Ionic-sovelluksia niiden elinkaaren aikana. Se tarjoaa kaupallisen palvelun tuotantosovelluksille, joka mahdollistaa natiivien sovellusten rakenteiden kokoamisen ja elävien koodipäivitysten jakamisen keskitetystä hallintapaneelista. Ilmaisen "Harrastus" -suunnitelman lisäksi tarjolla on lisämaksullisia päivityksiä edistyneempiin toimintoihin.</p>
       <div id='crossline'></div>
-    
+      <p id='title'>Käytettävät teknologiat</p>
+      <img id='logos' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png"></img>
+      <img id='logos' src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/768px-Angular_full_color_logo.svg.png?20160527092314"></img>
+      <img id='logos' src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png?20170311074507"></img>
     </div>
-
   );
 };
 

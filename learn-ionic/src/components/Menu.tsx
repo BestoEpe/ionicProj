@@ -1,6 +1,7 @@
 import {
   IonContent,
   IonIcon,
+  IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle,
   IonItem,
   IonLabel,
   IonList,
@@ -26,8 +27,8 @@ const appPages: AppPage[] = [
   {
     title: 'Overview',
     url: '/folder/Overview',
-    iosIcon: mailOutline,
-    mdIcon: mailSharp
+    iosIcon: heartOutline,
+    mdIcon: heartSharp
   },
   {
     title: 'Setup CLI',
@@ -56,6 +57,14 @@ const Menu: React.FC = () => {
             );
           })}
         </IonList>
+        <IonCard color="secondary">
+      <IonCardHeader>
+        <IonCardTitle>Ionic Project</IonCardTitle>
+        <IonCardSubtitle>Source code</IonCardSubtitle>
+      </IonCardHeader>
+
+      <IonCardContent>https://github.com/BestoEpe/ionicProj</IonCardContent>
+    </IonCard>
       </IonContent>
     </IonMenu>
   );
