@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './Setup.css';
 
-interface SetupProps {
-  name: string;
-}
+type SetupProps = {
+  name?: string;
+};
 
 const Setup: React.FC<SetupProps> = ({ name }) => {
   const [copiedCommand, setCopiedCommand] = useState('');
