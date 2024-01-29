@@ -1,0 +1,29 @@
+#container {
+  text-align: left;
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#content {
+  line-height: 22px;
+  margin-top: 11px;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+#title{
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+}
+
+#crossline{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.505);
+}
