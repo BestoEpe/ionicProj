@@ -51,7 +51,7 @@ ion-menu.md ion-item.selected {
 }
 
 ion-menu.md ion-item.selected ion-icon {
-  color: var(--ion-color-primary);
+  color: #000000;
 }
 
 ion-menu.md ion-item ion-icon {
@@ -87,7 +87,7 @@ ion-menu.ios ion-item ion-icon {
 }
 
 ion-menu.ios ion-item .selected ion-icon {
-  color: var(--ion-color-primary);
+  color: #000000;
 }
 
 ion-menu.ios ion-list#labels-list ion-list-header {
@@ -111,7 +111,7 @@ ion-note {
 }
 
 ion-item.selected {
-  --color: var(--ion-color-primary);
+  color: #000000;
 }
 
 ion-img{
